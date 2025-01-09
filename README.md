@@ -36,7 +36,7 @@ This project is a simple implementation of the Tenzies game, built as part of fo
 
 ## Acknowledgments
 
-This project was inspired by the [freeCodeCamp React tutorial](https://www.youtube.com/watch?v=x4rFhThSX04\&t=31837s). It served as a great hands-on exercise to learn about React hooks, component structure, and animations.
+This project was inspired by the [freeCodeCamp React tutorial](https://www.youtube.com/watch?v=x4rFhThSX04). It served as a great hands-on exercise to learn about React hooks, component structure, and animations.
 
 ---
 
