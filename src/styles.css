@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply sm:bg-dark flex justify-center items-center font-karla h-screen bg-light;
+}
+
+main {
+    @apply bg-light w-80 h-80 rounded-[10px] flex flex-col items-center p-8 justify-between
+}
+
+header {
+    @apply flex flex-col items-center
+}
+
+header h1 {
+    @apply text-tprimary font-bold;
+    font-size: 25.6px;
+    line-height: 29.93px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+header p {
+    @apply text-tsecondary text-center font-normal font-inter;
+    font-size: 13.11px;
+    line-height: 15.86px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.dice {
+    @apply grid grid-rows-2 grid-cols-5 gap-5;
+}
+
+.segment {
+    @apply w-9 h-9 flex justify-center items-center bg-white rounded-[4px] text-tprimary font-bold text-xl select-none cursor-pointer font-karla;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.segment.selected {
+    @apply bg-green;
+}
+
+.input-section {
+    @apply flex flex-row gap-4;
+}
+
+.input-section button {
+    @apply flex justify-center items-center w-24 h-9 rounded-[4px] font-bold text-white font-karla shadow-md text-lg gap-1;
+    font-size: 16.38px;
+    line-height: 19.15px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.input-section button span {
+    @apply text-xl;
+}
+
+.btn-primary {
+    @apply bg-purple;
+}
+
+.btn-secondary {
+    @apply bg-green;
+}
+
+.win {
+    @apply text-green;
+}
